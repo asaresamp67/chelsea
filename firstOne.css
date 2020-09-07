@@ -1,0 +1,80 @@
+/* =========================
+BY Sampson Asare
+02.05.2020
+
+Responsive Website for Chelsea
+
+Football Club
+
+============================= */
+
+html, body{
+  height: 100%;
+  text-align: center;
+}
+
+#front-page{
+  background: #222 url('img/stars.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#front-page-caption{
+  width: 100%;
+}
+.fp{
+	font-weight: bold;
+}
+.mlbtn{
+  margin-left: 10rem;
+}
+
+.about-content{
+  background:url('img/oldPlayers.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 4rem 0;
+}
+.about-text{
+  background-color: #000000;
+  color:#ffffff;
+  opacity: 0.8;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.footer-content{
+  background: #000000;
+  color:#ffffff;
+  padding: 1.5rem 0;
+  text-align: left;
+}
+.legend-content p{
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+.mlbtn   {
+  margin-right: 3rem;
+  margin-left: 5rem;
+  }
+  .goal{
+    margin-right: 12rem;
+
+  }
+  .goal button{
+	  margin-right:6rem
+  }
+  .display-3 {
+    font-size: 3.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+  }
+  form{
+	  text-align:center;
+  }
+}
